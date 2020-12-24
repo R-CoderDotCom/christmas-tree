@@ -37,6 +37,16 @@ chtree(bulbs = FALSE)
   <img src = "https://user-images.githubusercontent.com/67192157/103097269-0e167400-4607-11eb-9b5b-6b45ec6a6ea4.png">
 </p>
 
+## Remove star
+
+```r
+chtree(bulbs = FALSE)
+```
+
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/67192157/103100897-27262180-4615-11eb-964e-191481708e2e.png">
+</p>
+
 
 ## Acknowledgements
 
