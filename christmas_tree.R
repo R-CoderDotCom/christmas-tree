@@ -31,8 +31,6 @@ for(i in rep(exp(-(1:125)* 0.016), 4) * s + s){
 
 if(bulbs == TRUE) {
 # Christmas bulbs
-
-
 cols <- sample(c(rgb(1, 0, 0, 0.1), rgb(0, 1, 0, 0.1), rgb(1, 1, 0, 0.1), rgb(0, 0.2, 1, 0.1)))
 cols2 <- sample(c(rgb(1, 0, 0, 0.1), rgb(0, 1, 0, 0.1), rgb(1, 1, 0, 0.1), rgb(0, 0.2, 1, 0.1)))
 cols3 <- sample(c(rgb(1, 0, 0, 0.1), rgb(0, 1, 0, 0.1), rgb(1, 1, 0, 0.1), rgb(0, 0.2, 1, 0.1)))
@@ -45,9 +43,6 @@ for(i in 11:1){
 	points(seq(-0.25, 0.25, 0.1), rep(375, 6), pch = 19, cex = 0.15 + (0.12 * i), col = cols4)
 
 }
-
-
-
 
 set.seed(60)
 points(runif(6, -0.77, 0.77), runif(6, 0, 100), pch = 21, cex = 3, bg = sample(c("gold", "red")))
@@ -62,14 +57,14 @@ points(-0.15, 180, pch = 21, cex = 3, bg = sample(c("gold", "red")))
 if(star == TRUE) {
     # Star
     points(0.006, 508, pch = 19, col = 7, cex = 5.6)
-    p(0, 520, pch = "?", cex = 13, col = 7)
+    p(0, 520, pch = "⭐", cex = 13, col = 7)
 }
 
 
 if(snow == TRUE) {
     # Snow
-    p(r(75, -1.25, 1.25), r(75, -100, l+50), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "??")
-    p(r(100, -1.25, 1.25), r(100, -100, -95), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "??")
+    p(r(75, -1.25, 1.25), r(75, -100, l+50), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "❄️")
+    p(r(100, -1.25, 1.25), r(100, -100, -95), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "❄️")
 }
 
 }
