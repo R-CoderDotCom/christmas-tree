@@ -1,5 +1,7 @@
 # Base R Christmas tree
-A function to create a Christmas tree plot with base R
+A function to create a Christmas tree plot with base R.
+
+**Note**: as the code uses emojis as pch symbols (the snow and the star) I recommend you to copy the function directly into the console instead of opening it with a script.
 
 ```r
 chtree()
