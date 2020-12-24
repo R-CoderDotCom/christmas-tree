@@ -42,7 +42,7 @@ chtree(bulbs = FALSE)
 ## Remove star
 
 ```r
-chtree(bulbs = FALSE)
+chtree(star = FALSE)
 ```
 
 <p align="center">
