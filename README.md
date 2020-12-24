@@ -1,4 +1,4 @@
-# christmas-tree
+# Base R Christmas tree
 A function to create a Christmas tree plot with base R
 
 ```r
