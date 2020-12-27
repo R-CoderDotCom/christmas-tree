@@ -13,7 +13,7 @@ a <- 0
 
 rect(-0.1, -100, 0.1, 0, col = "brown", border = "brown")
 
-if(star == TRUE) {
+if(isTRUE(star)) {
     # Star glow
     for(i in 11:1){
     	points(0.005, 500.2, pch = 19, col = rgb(1, 1, 0, 0.05), cex = 5 + (0.65 * i))
@@ -29,7 +29,7 @@ for(i in rep(exp(-(1:125)* 0.016), 4) * s + s){
 }
 }
 
-if(bulbs == TRUE) {
+if(isTRUE(bulbs)) {
 # Christmas bulbs
 cols <- sample(c(rgb(1, 0, 0, 0.1), rgb(0, 1, 0, 0.1), rgb(1, 1, 0, 0.1), rgb(0, 0.2, 1, 0.1)))
 cols2 <- sample(c(rgb(1, 0, 0, 0.1), rgb(0, 1, 0, 0.1), rgb(1, 1, 0, 0.1), rgb(0, 0.2, 1, 0.1)))
@@ -54,14 +54,14 @@ points(0, 140, pch = 21, cex = 3, bg = sample(c("gold", "red")))
 points(-0.15, 180, pch = 21, cex = 3, bg = sample(c("gold", "red")))
 }
 
-if(star == TRUE) {
+if(isTRUE(star)) {
     # Star
     points(0.006, 508, pch = 19, col = 7, cex = 5.6)
     p(0, 520, pch = "⭐", cex = 13, col = 7)
 }
 
 
-if(snow == TRUE) {
+if(isTRUE(snow)) {
     # Snow
     p(r(75, -1.25, 1.25), r(75, -100, l+50), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "❄️")
     p(r(100, -1.25, 1.25), r(100, -100, -95), col = "white", cex = sample(seq(0.5, 1.2, length.out = 75)), pch = "❄️")
