@@ -7,7 +7,7 @@ A function to create a Christmas tree plot with base R.
 chtree()
 ```
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/67192157/103097081-61d48d80-4606-11eb-8f97-49657bf3b361.png">
+  <img src = "https://user-images.githubusercontent.com/67192157/103097081-61d48d80-4606-11eb-8f97-49657bf3b361.png" alt = "Christmas tree in R">
 </p>
 
 ## Change background color
@@ -15,7 +15,7 @@ chtree()
 chtree(bg.col = "lightblue1")
 ```
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/67192157/103097116-7fa1f280-4606-11eb-836e-673fea053c3f.png">
+  <img src = "https://user-images.githubusercontent.com/67192157/103097116-7fa1f280-4606-11eb-836e-673fea053c3f.png" alt = "Xmas tree in R">
 </p>
 
 ## Remove snow
@@ -25,7 +25,7 @@ chtree(snow = FALSE)
 ```
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/67192157/103097150-a102de80-4606-11eb-96dd-2f11a0d1f297.png">
+  <img src = "https://user-images.githubusercontent.com/67192157/103097150-a102de80-4606-11eb-96dd-2f11a0d1f297.png" alt = "R Christmas tree">
 </p>
 
 
@@ -36,7 +36,7 @@ chtree(bulbs = FALSE)
 ```
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/67192157/103097269-0e167400-4607-11eb-9b5b-6b45ec6a6ea4.png">
+  <img src = "https://user-images.githubusercontent.com/67192157/103097269-0e167400-4607-11eb-9b5b-6b45ec6a6ea4.png" alt = "Arbol de Navidad en R">
 </p>
 
 ## Remove star
@@ -46,7 +46,7 @@ chtree(star = FALSE)
 ```
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/67192157/103100897-27262180-4615-11eb-964e-191481708e2e.png">
+  <img src = "https://user-images.githubusercontent.com/67192157/103100897-27262180-4615-11eb-964e-191481708e2e.png" alt = "R Christmas tree">
 </p>
 
 
